@@ -46,7 +46,7 @@ class CameraManager:
     def record_video(self, frames):
         height, width, _ = frames[0].shape
         now = datetime.now()
-        timestamp = now.strftime("%B %dth @ %I;%M %p")  # Use ; instead of :
+        timestamp = now.strftime("%B %dth @ %I-%M %p")
         filename = f"camera_{self.camera_id} {timestamp}.avi"
 
         out = cv2.VideoWriter(filename, cv2.VideoWriter_fourcc(*'XVID'), RECORD_FPS, (width, height))
