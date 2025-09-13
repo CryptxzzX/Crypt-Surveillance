@@ -3,7 +3,7 @@ A Surveillance Software written in Python, has motion detection, the ability to 
 
 
 # REQUIRED PACKAGES
-opencv-python
-numpy
-Pillow
-tkinter (Included with standard Python)
+opencv-python  
+numpy  
+Pillow  
+tkinter (Included with standard Python)  
